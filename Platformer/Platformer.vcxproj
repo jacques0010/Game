@@ -125,14 +125,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Engine\Math\VectorMath.cpp" />
+    <ClCompile Include="Engine\ErrorHandler\ErrorLogger.cpp" />
+    <ClCompile Include="Engine\ErrorHandler\TextUtils.cpp" />
+    <ClCompile Include="Engine\FileManager\FileLoader.cpp" />
+    <ClCompile Include="Engine\Graphics\Buffers\IndexBuffer.cpp" />
+    <ClCompile Include="Engine\Graphics\Buffers\VertexBuffer.cpp" />
+    <ClCompile Include="Engine\Graphics\BasicShader.cpp" />
+    <ClCompile Include="Engine\Graphics\Window.cpp" />
+    <ClCompile Include="Engine\Math\Matrix4f.cpp" />
+    <ClCompile Include="Engine\Math\Vec2f.cpp" />
+    <ClCompile Include="Engine\Math\Vec3f.cpp" />
+    <ClCompile Include="Engine\Math\Vec4f.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Engine\ErrorHandler\ErrorHandlers.h" />
+    <ClInclude Include="Engine\ErrorHandler\ErrorLogger.h" />
+    <ClInclude Include="Engine\ErrorHandler\TextUtils.h" />
+    <ClInclude Include="Engine\FileManager\FileLoader.h" />
+    <ClInclude Include="Engine\Graphics\Buffers\IndexBuffer.h" />
+    <ClInclude Include="Engine\Graphics\Buffers\VertexBuffer.h" />
+    <ClInclude Include="Engine\Graphics\BasicShader.h" />
+    <ClInclude Include="Engine\Graphics\Window.h" />
+    <ClInclude Include="Engine\Math\MathVector.h" />
+    <ClInclude Include="Engine\Math\Matrix4f.h" />
     <ClInclude Include="Engine\Math\Vec2f.h" />
     <ClInclude Include="Engine\Math\Vec3f.h" />
     <ClInclude Include="Engine\Math\Vec4f.h" />
-    <ClInclude Include="Engine\Math\VectorMath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basicFrag.glsl" />
+    <None Include="Shaders\basicVert.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

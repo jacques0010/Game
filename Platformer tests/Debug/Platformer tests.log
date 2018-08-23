@@ -1,0 +1,6 @@
+﻿  UnitTest.cpp
+UnitTest.obj : error LNK2028: unresolved token (0A00000B) "public: __thiscall Engine::Math::Vec2f::~Vec2f(void)" (??1Vec2f@Math@Engine@@$$FQAE@XZ) referenced in function "public: void __clrcall Platformertests::UnitTest::TestMethod1(void)" (?TestMethod1@UnitTest@Platformertests@@$$FQ$AAMXXZ)
+UnitTest.obj : error LNK2028: unresolved token (0A00000C) "public: __thiscall Engine::Math::Vec2f::Vec2f(float,float)" (??0Vec2f@Math@Engine@@$$FQAE@MM@Z) referenced in function "public: void __clrcall Platformertests::UnitTest::TestMethod1(void)" (?TestMethod1@UnitTest@Platformertests@@$$FQ$AAMXXZ)
+UnitTest.obj : error LNK2019: unresolved external symbol "public: __thiscall Engine::Math::Vec2f::Vec2f(float,float)" (??0Vec2f@Math@Engine@@$$FQAE@MM@Z) referenced in function "public: void __clrcall Platformertests::UnitTest::TestMethod1(void)" (?TestMethod1@UnitTest@Platformertests@@$$FQ$AAMXXZ)
+UnitTest.obj : error LNK2019: unresolved external symbol "public: __thiscall Engine::Math::Vec2f::~Vec2f(void)" (??1Vec2f@Math@Engine@@$$FQAE@XZ) referenced in function "public: void __clrcall Platformertests::UnitTest::TestMethod1(void)" (?TestMethod1@UnitTest@Platformertests@@$$FQ$AAMXXZ)
+C:\Users\Justin\Source\Repos\Game\Debug\DefaultTest.dll : fatal error LNK1120: 4 unresolved externals
